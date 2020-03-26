@@ -24,4 +24,8 @@
                     let qIDspot = document.getElementById("qID");
                     qIDspot.innerHTML += daysInQuarantine();
                 }
+                function toPageCat(){
+                    let bitchCatspot = document.getElementById("bitchCat");
+                    bitchCatspot.innerHTML += daysInQuarantine()*daysInQuarantine();
+                }
                 toPage();
